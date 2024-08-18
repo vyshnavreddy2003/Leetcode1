@@ -7,11 +7,6 @@ class Solution {
             runningSum[i] = runningSum[i - 1] + nums[i];
         }
         
-        System.out.println("Running sum:");
-        for (int sum : runningSum) {
-            System.out.println(sum);
-        }
-        
         return runningSum;
     }
 }
